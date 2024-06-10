@@ -1,0 +1,424 @@
+.sedan-regular {
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+
+header {
+    width: 100%;
+    height: 550px;
+    background-image: url(header.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabecera {
+    margin: 0 auto;
+    width: 95%;
+    height: 100%;
+    /*background: blue;*/
+    cursor: default;
+
+}
+
+.navegacion {
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    /*background-color: white;*/
+    width: 300px;
+    position: relative;
+    left: 75%;
+}
+
+.titulo {
+    display: inline;
+    /*background-color: azure;*/
+    position: relative;
+    top: 20PX;
+    color: white;
+}
+
+.navegacion a {
+    width: 100%;
+    height: 100%;
+    /*border: 2px solid black;*/
+    padding: 10px;
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+}
+
+.contendorh2 {
+    background: blue;
+    display: inline;
+    position: relative;
+    top: 300px;
+}
+
+.contendorh2 h2 {
+    display: block;
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+/*Segunda parte*/
+
+.contenedor-tarjetas {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    max-width: 1100px;
+    justify-content: center;
+
+}
+
+.tarjeta {
+    width: 100%;
+    margin: 20px;
+    overflow: hidden;
+    /*para que todo elemento que este fuera de la tarjeta se oculte/NO aparezcan afuera*/
+    background: transparent;
+    cursor: default;
+
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 100px;
+}
+
+.contenedor-tarjetas .contenido {
+    padding: 15px;
+    text-align: center;
+}
+
+.contenedor-tarjetas .contenido p {
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+
+.contenedor-tarjetas .contenido h3 {
+    font-weight: 400;
+    /*reducimos la negrita*/
+    margin-bottom: 15px;
+}
+
+.tituloh2 {
+
+    background: red;
+    display: inline;
+    /*background-color: azure;*/
+    position: relative;
+    top: 20PX;
+    color: white;
+}
+
+/*
+.contenedorTituloh2 h2{
+    width: 100%;
+    background: green;
+    display: inline;
+
+
+}*/
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+}
+
+.flex-container-items h3 {
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.flex-container-items p {
+    line-height: 1.5;
+    color: #6a6a6a;
+}
+
+/*tarcera parte*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px;
+}
+.container-card
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2px;
+
+}
+
+.card{
+    text-align: center;
+    border: 0.5px solid black;
+    margin: 30px;
+    height: 550px;
+    width: 350px;
+    background: rgb(242, 244, 244);
+}
+
+.advert{
+    width: 100%;
+    height: 250px;
+}
+
+
+
+.container-button{
+    height: 40px;
+    width: 90%;
+    padding: 5px;
+    margin: 30px auto;
+
+    /*background: red;*/
+    /*margin-top: 50px;*/
+}
+.container-button a {
+    text-decoration: none;
+    background: rgb(243, 156, 18 );
+    color: white;
+    /*border: 1px solid black;*/
+    border-radius: 2px;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+}
+
+.container-content h2{
+    /*background: red;*/    
+    font-weight: 100;
+    font-size: 27px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.container-content{
+    justify-content: center;
+}
+
+.price{
+
+    color: #808000;
+    margin-top: 10px;
+    background: transparent;
+    position: relative;
+    text-align: left;
+    width: 80%;
+    left: 30px;
+    top: 10px;
+
+}
+
+.container-items p{
+    display: inline;
+    text-align: center;
+    background: transparent;
+    position: relative;
+    bottom: 20px;
+    font-size: 20px;
+}
+
+.container-items{
+    /*display: flex;
+    flex-direction: row;*/
+    width: 100%;
+    background: transparent;
+    justify-content: center center;
+    position: relative;
+    top: 20px;
+    
+}
+.container-items img{
+    background: transparent;
+    margin: 10px;
+    padding: 0 5px;
+}
+
+.buttom-link{   
+    width: 100px;
+    height: 40px;
+    background: #4dab00;
+    position: relative;
+    left: 40%;
+    bottom: 15px;
+    text-align: center;
+    
+}
+
+.buttom-link a {
+    text-decoration: none;
+    background: transparent;
+    color: white;
+    display: block;
+    position: relative;
+    top:10px;
+    font-size: 20px;
+
+
+}
+
+/*cuarta parte*/
+
+.container-form{
+    width: 100%;
+    height: 500px;
+    background-image: url(imgProyecto/imganes/images/encuentra.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-form h2{
+
+    font-weight: 100;
+    font-size: 40px;
+    color: white;
+    display: inline;
+    position: relative;
+    top: 30%;
+    left: 30px;
+    background: transparent;
+
+}
+
+.container-form p{
+
+    font-weight: 100;
+    font-size: 25px;
+    color: white;
+    background: transparent;
+    display: inline;
+    position: relative;
+    top: 53%;
+    right: 35.5%;
+}
+
+.container-link {
+    width: 170px;
+    height: 60px;
+    background: #808000;
+    text-align: center;
+    justify-content: center center;
+    position: relative;
+    top: 70%;
+    left: 30px;
+}
+
+.container-link a {
+
+    text-decoration: none;
+    font-size: 24px;
+    position: relative;
+    top: 15px;
+    color: white;
+}
+
+/*cuarta parte*/
+
+.container-comentarios-blog {
+    width: 100%;
+    height: 550px;
+    background: #808000;
+    display: flex;
+    flex-direction: row;
+}
+
+.contenido{
+    
+    width: 100%;
+    height: 50%;
+    background: green;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.container-blog{
+    width: 50%;
+    height: 86.8%;
+}
+
+.contenido div{
+    border: 1px solid rgb(223, 13, 13);
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #808000;
+
+    /*continuamos*/
+    width: 80%;
+    height: 80%;
+}
+.contenido div h2{
+    border: 1px solid black;
+    text-align: center;
+    margin: 15px;
+}
+
+.container-blog h1{
+    background: #4dab00;
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    margin: 15px;
+}
+.foto-blog{
+    width: 310px;
+    height: 180px;
+    position: relative;
+    top: 30px;
+
+}
+.container-comentarios{
+    width: 50%;
+    height: 100%;
+    background: blue;
+}
+
+.contenido p{
+    border: 1px solid black;
+    margin: 10px;
+    font-size: 20px;
+    /*display: inline;*/
+    position: relative;
+    top: 15px;
+    text-align: center;
+
+    
+
+}
+
+
+/*centradito
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}*/
+
+
